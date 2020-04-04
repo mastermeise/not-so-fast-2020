@@ -1,0 +1,390 @@
+[
+  {
+    "Question": "What must a variable begin with?,\"A letter",
+    "Answer": " $ or _\""
+  },
+  {
+    "Question": "What is a variable?",
+    "Answer": "Container for a piece of data"
+  },
+  {
+    "Question": "Are variables case sensitive?",
+    "Answer": "Yes"
+  },
+  {
+    "Question": "How do you declare variables?",
+    "Answer": "\"using the var keyword - eg. var myName=\"\"Monica\"\";\""
+  },
+  {
+    "Question": "What will an undeclared variable return?",
+    "Answer": "Undefined"
+  },
+  {
+    "Question": "Two types of variable scope?",
+    "Answer": "Local and Global"
+  },
+  {
+    "Question": "What are the properties of a Local Scope?,\"Within a function",
+    "Answer": " only available within function\""
+  },
+  {
+    "Question": "What are the properties of Global Scope?,\"Outside a function",
+    "Answer": " available to any code outside that function (also within).\""
+  },
+  {
+    "Question": "\"What is Variable \"\"Hoisting\"\"?\"",
+    "Answer": "Variables are hoisted to the top of the function/statement. It is useful because you can refer to variables declared later in the code."
+  },
+  {
+    "Question": "What is best practice regarding variable declarations?",
+    "Answer": "Put variable declarations as close to the top of the scope as possible."
+  },
+  {
+    "Question": "Prototype Based",
+    "Answer": "Each object has a prototype that it inherits properties and abilities from"
+  },
+  {
+    "Question": "Dynamic Typing",
+    "Answer": "Dynamic if the type of variable is interpreted at runtime."
+  },
+  {
+    "Question": "First Class Function",
+    "Answer": "Treats functions as first class citizens - you can do with functions everything you can do with other elements."
+  },
+  {
+    "Question": "Multi Paradigm Language",
+    "Answer": "Supports more than one programming paradigm - developers can work with a variety of styles within javascript."
+  },
+  {
+    "Question": "DOM",
+    "Answer": "Document Object model."
+  },
+  {
+    "Question": "What is DOM?",
+    "Answer": "Representation of HTML Page...."
+  },
+  {
+    "Question": "What are the two ways to add JS to your site?",
+    "Answer": "Internally and Externally."
+  },
+  {
+    "Question": "How do you add JS To your site internally?",
+    "Answer": "Internally using html <script></script> tag. Best practice to place it before closing body tag ."
+  },
+  {
+    "Question": "How do you add JS to your site externally?",
+    "Answer": "Add by externally linking to .js files."
+  },
+  {
+    "Question": "Is JS case sensitive?",
+    "Answer": "Yes"
+  },
+  {
+    "Question": "JS Statement",
+    "Answer": "A command that tells the browser what to do."
+  },
+  {
+    "Question": "\n\"document.write(\"\"hello world\"\");\"\n\"var myName=\"\"lorna\"\";\"",
+    "Answer": "Can a statement be grouped into useable blocks called functions?,Yes.\r"
+  },
+  {
+    "Question": "Datatypes,\"Numbers, Strings, Boolean, Arrays",
+    "Answer": " Objects.\""
+  },
+  {
+    "Question": "What are the 2 types of Numbers within Datatypes?,\"Integer: Whole Number (-1",
+    "Answer": " 450)\""
+  },
+  {
+    "Question": "\n\"Float:Decimal Point (0.1, 12.454)\"",
+    "Answer": "What are Strings within Datatypes?,\"A line of text: \"\"frog\"\", \"\"a red truck\"\"\"\r"
+  },
+  {
+    "Question": "What kind of value does Boolean take?",
+    "Answer": "True or False"
+  },
+  {
+    "Question": "What is an Array?",
+    "Answer": "Used to store multiple values in a single variable."
+  },
+  {
+    "Question": "\n\"Real [\"\"blue\"\", \"\"5\"\", \"\"123456\"\"]\"\nRefer to the whole array using its variable name\nArrays are indexed from 0",
+    "Answer": "Objects,Custom datatypes with properties and actions\r"
+  },
+  {
+    "Question": "Operators",
+    "Answer": "Used to assign values to variables and perform mathematical operations on them"
+  },
+  {
+    "Question": "\nMath Based Operators\nComparison Operators",
+    "Answer": "Example of comparison operators,\"var num = \"\"5\"\"; var numString =\"\"5\"\",\"\r"
+  },
+  {
+    "Question": "\n#ERROR!\nnum ==numString (true)\n#ERROR!\nnum===numString(false)",
+    "Answer": "Conditionals,Statements that allow for code to be executed against conditionals\r"
+  },
+  {
+    "Question": "\n\"IF, ELSE statements\"",
+    "Answer": "Example of Conditional IF Statement,if (This condition is true) {Do this thing}\r"
+  },
+  {
+    "Question": "\n\"var Country = \"\"Australia\"\";\"\n\"var Hemisphere, var Language;\"\n\"if (country = \"\"England\"\") {\"\n\"hemisphere = \"\"northern\"\";\"\n\"language = \"\"english\"\";\"\n}",
+    "Answer": "Example of Conditional ELSE Statement,Else statements allow us to make an alternative statement if original condition is false\r"
+  },
+  {
+    "Question": "\nif (this condition is true){\n...do this thing\n}else{\n...do this other thing\n}",
+    "Answer": "Loops,Repetitive Conditional statements.\r"
+  },
+  {
+    "Question": "\n\"Used to perform a calculation a number of times, or to iterate over a set of variables.\"",
+    "Answer": "Three main types of Loops,For: Set Number of Iterations\r"
+  },
+  {
+    "Question": "\nWhile: Certain conditions are met\nDo...While: Certain condition is met",
+    "Answer": "For Loop Example,Repeats until a specific condition becomes false\r"
+  },
+  {
+    "Question": "While Loop Example",
+    "Answer": "Iterate while the condition is true"
+  },
+  {
+    "Question": "\nwhile (condition) {\ndo this thing\n}",
+    "Answer": "Do While Loop,Iterate while the condition is true\r"
+  },
+  {
+    "Question": "\ndo {\n... this thing\n} while(condition);",
+    "Answer": "Function,Re-useable blocks of instructions that can be executed by name.\r"
+  },
+  {
+    "Question": "\n-Perform common tasks\n\"-saves time, reduces error\"\nfunction functionName (data) {\nrepeat action here\nreturn outcome\n}",
+    "Answer": "Function Example,function sayHello(){\r"
+  },
+  {
+    "Question": "\n\"alert (\"\"hello everyone!\"\");\"\n}",
+    "Answer": "console.log(THING_TO_OUTPUT),\"A built-in JavaScript function that will push messages to the browsers error console. It is a very useful tool for debugging code, for seeing how variables are changing in your code. You can output strings, numbers, variables, objects, arrays and combinations of these for inspection.\"\r"
+  },
+  {
+    "Question": "Math.random(),\"Generates a random floating point number between 0 & 1. To convert this to a number range that we want - for example a random number between 1 & 10. First we multiply the result of Math.random() by 10 (the amount of potential numbers from 1 to 10) - this will give us numbers that range from 0 to 9.99999. Because Math.random() won't ever return the whole number 1 and to remove the decimal places",
+    "Answer": " we use Math.ceil()to round the result of Math.random()*10 up to the nearest whole number. See more on the Math object.\""
+  },
+  {
+    "Question": "What type of language is JavaScript?",
+    "Answer": "It is a scripting language."
+  },
+  {
+    "Question": "What is a scripting language?",
+    "Answer": "A scripting language is a lightweight programming language."
+  },
+  {
+    "Question": "\nWhat would be the result of the following code?\n<script>\n\"document.write(\"\"<h1>This is a heading</h1>\"\");\"\n\"document.write(\"\"<p>This is a paragraph</p>\"\");\"",
+    "Answer": "</script>,It will write what is between the <h1> and <p> tags to the browser screen formatted accordingly to the respective HTML tags\r"
+  },
+  {
+    "Question": "\"What happens if you call the \"\"document.write\"\" function after the document has fully loaded?\"",
+    "Answer": "The html document will be deleted and replaced by your new content."
+  },
+  {
+    "Question": "The alert() function is not much used in JavaScript. What is it is useful for?",
+    "Answer": "It is often quite handy for trying out code."
+  },
+  {
+    "Question": "\nWhat will this code do?\n\"<p id=\"\"demo\"\"> JavaScript can change the content of an HTML element.</p>\"\n<script>\nfunction myFunction() {\n\"x=document.getElementById(\"\"demo\"\"); // Find the element\"\n\"x.innerHTML=\"\"Hello JavaScript!\"\"; // Change the content\"\n}",
+    "Answer": "</script>,It will change the text between the <p> tags to the content in quotes after x.innerHTML\r"
+  },
+  {
+    "Question": "\nHello JavaScript!\nWhat does this piece of code tell the computer to do ?",
+    "Answer": "\"x=document.getElementById(\"\"demo\"\")\",\"Find the Element (\"\"demo\"\");\"\r"
+  },
+  {
+    "Question": "\n\"document.getElementById(\"\"some id\"\")\"\n\"(The \"\"Id\"\" could be anything else.)\"\nWhat does this piece of code tell the computer to do?",
+    "Answer": "\"x.innerHTML=\"\"Hello JavaScript!\"\";\",Change the content of the x variable to Hello JavaScript!\r"
+  },
+  {
+    "Question": "\"parseInt: If the first character cannot be converted to a number, what is returned?\"",
+    "Answer": "NaN"
+  },
+  {
+    "Question": "What does parseFloat do?,\"It parses its argument, and returns a floating point number. If it encounters a character other than a sign (+ or -), numeral (0-9), a decimal point, or an exponent",
+    "Answer": " it returns the value up to that point and ignores that character and all succeeding characters. Leading and trailing spaces are allowed.\""
+  },
+  {
+    "Question": "Math.random(),\"This function returns a floating-point, pseudo-random number in the range 0 to 1 — that is",
+    "Answer": " from 0 (inclusive) up to but not including 1 (exclusive) — which you can then scale to your desired range. The implementation selects the initial seed to the random number generation algorithm; it cannot be chosen or reset by the user.\""
+  },
+  {
+    "Question": "What is the DOM?",
+    "Answer": "The DOM is a representation of a webpage that JavaScript can use."
+  },
+  {
+    "Question": "Object Prototype,\"function Person(first, last, age",
+    "Answer": " eyecolor) {\""
+  },
+  {
+    "Question": "\nthis.firstName = first;\nthis.lastName = last;\nthis.age = age;\nthis.eyeColor = eyecolor;",
+    "Answer": "\"Which index is zero based? (The first element is 0, the second is 1, and so on.)\",Array\r"
+  },
+  {
+    "Question": "pop(),\"Removes the last element of an array",
+    "Answer": " and returns that element\""
+  },
+  {
+    "Question": "push(),\"Adds new elements to the end of an array",
+    "Answer": " and returns the new length\""
+  },
+  {
+    "Question": "shift(),\"Removes the first element of an array",
+    "Answer": " and returns that element\""
+  },
+  {
+    "Question": "splice(),\"adds/removes items to/from an array",
+    "Answer": " and returns the removed item(s)\""
+  },
+  {
+    "Question": "unshift(),\"Adds new elements to the beginning of an array",
+    "Answer": " and returns the new length\""
+  },
+  {
+    "Question": "children,\"children property returns a collection of an element's child elements",
+    "Answer": " as an HTMLCollection object\""
+  },
+  {
+    "Question": "\nThe elements in the collection are sorted as they appear in the source code and can be accessed by index numbers. The index starts at 0.",
+    "Answer": "childNodes,\"The childNodes property returns a collection of a node's child nodes, as a NodeList object.\"\r"
+  },
+  {
+    "Question": "\nThe nodes in the collection are sorted as they appear in the source code and can be accessed by index numbers. The index starts at 0.\n\"Note: Whitespace inside elements is considered as text, and text is considered as nodes. Comments are also considered as nodes.\"\n\"Tip: You can use the length property of the NodeList object to determine the number of child nodes, then you can loop through all child nodes and extract the info you want.\"",
+    "Answer": "z-index,\"The z-index CSS property specifies the z-order of a positioned element and its descendants. When elements overlap, z-order determines which one covers the other. An element with a larger z-index generally covers an element with a lower one.\"\r"
+  },
+  {
+    "Question": "clearInterval,\"cancels a timed",
+    "Answer": " repeating action which was previously established by a call to setInterval().\""
+  },
+  {
+    "Question": "intervalId,\"let intervalID = setInterval(function() { console.log(\"\"Happening every 500ms!\"\"); }",
+    "Answer": " 500);\""
+  },
+  {
+    "Question": "\nclearInterval(intervalID);",
+    "Answer": "Object LIteral,A comma-separated list of name-value pairs wrapped in curly braces.\r"
+  },
+  {
+    "Question": "\n\"var person = {firstName:\"\"John\"\", lastName:\"\"Doe\"\", age:50, eyeColor:\"\"blue\"\"};\"",
+    "Answer": "document.querySelector(),\"Returns the first Element within the document that matches the specified selector, or group of selectors, or null if no matches are found.\"\r"
+  },
+  {
+    "Question": "document.querySelectorAll()",
+    "Answer": "Returns a list of the elements within the document (using depth-first pre-order traversal of the document's nodes) that match the specified group of selectors. The object returned is a NodeList."
+  },
+  {
+    "Question": ".addEventListener",
+    "Answer": "('click' ( ) {"
+  },
+  {
+    "Question": "\np.textContent = input.value\n})",
+    "Answer": ".textContent,similar to .innerHTML\r"
+  },
+  {
+    "Question": ".innerHTML",
+    "Answer": "can read and alter the elements on a webpage"
+  },
+  {
+    "Question": "return",
+    "Answer": "ends function execution and specifies a value to be returned to the function caller"
+  },
+  {
+    "Question": "ternary",
+    "Answer": "this.items = items !== undefined ? items : [];"
+  },
+  {
+    "Question": "\n\"(if items is undefined, return items; otherwise return the array)\"\n<script>\n\"var toys = [\"\"jacks\"\", \"\"matchbox cars\"\", \"\"yo-yos\"\", \"\"marbles\"\"];\"\n// ES5\n// for(var i = 0; i < toys.length; i++){\n// console.log(toys[i]);\n// }",
+    "Answer": "</script>,for loop that prints all items in array\r"
+  },
+  {
+    "Question": "\n<script>\n\"var toys = [\"\"jacks\"\", \"\"matchbox cars\"\", \"\"yo-yos\"\", \"\"marbles\"\"];\"\n// ES6\n// for(var toy of toys){\n// console.log(toy);\n// }",
+    "Answer": "</script>,for of loop that prints all items in array\r"
+  },
+  {
+    "Question": "\n<script>\n\"var toys = [\"\"jacks\"\", \"\"matchbox cars\"\", \"\"yo-yos\"\", \"\"marbles\"\"];\"\n// jQuery\n\"// $.each(toys, function(index, value){\"\n// console.log(value);\n// });",
+    "Answer": "</script>,The $.each() function internally retrieves and uses the length property of the passed collection.\r"
+  },
+  {
+    "Question": "\n\"button.addEventListener('click', () => {\"\np.innerHTML = input.value + ':';",
+    "Answer": "});,\"When the button is clicked, the text between the <p> tags is changed per what is typed into input box\"\r"
+  },
+  {
+    "Question": "What is a dataset?,\"The dataset property on the HTMLElement interface provides read/write access to all the custom data attributes (data-*) set on the element. This access is available both in HTML and within the DOM. It is a map of DOMString",
+    "Answer": " one entry for each custom data attribute.\""
+  },
+  {
+    "Question": "Math.floor()",
+    "Answer": "A function that returns the largest integer less than or equal to a given number."
+  },
+  {
+    "Question": "parseFloat()",
+    "Answer": "This function parses a string and returns a floating point number."
+  },
+  {
+    "Question": "\n\"This function determines if the first character in the specified string is a number. If it is, it parses the string until it reaches the end of the number, and returns the number as a number, not as a string.\"",
+    "Answer": "parseInt(),This function parses a string and returns an integer. (Only the first number gets returned.)\r"
+  },
+  {
+    "Question": "Node properties to navigate between nodes with JavaScript,\"parentNode, childNodes[nodenumber], firstChild, lastChild, nextSibling",
+    "Answer": " previousSibling\""
+  },
+  {
+    "Question": "A common error in DOM processing",
+    "Answer": "to expect an element node to contain text"
+  },
+  {
+    "Question": "The value of the text node",
+    "Answer": "can be accessed by the node's innerHTML property"
+  },
+  {
+    "Question": "\"The same as: var myTitle = document.getElementById(\"\"demo\"\").innerHTML;\"",
+    "Answer": "\"var myTitle = document.getElementById(\"\"demo\"\").firstChild.nodeValue;\""
+  },
+  {
+    "Question": "\n\"var myTitle = document.getElementById(\"\"demo\"\").childNodes[0].nodeValue;\"",
+    "Answer": "Two special properties that allow access to the full document,document.body - The body of the document\r"
+  },
+  {
+    "Question": "\ndocument.documentElement - The full document",
+    "Answer": "nodeName always contains this,the uppercase tag name of an HTML element\r"
+  },
+  {
+    "Question": "The nodeValue property specifies the value of a node. Name three specific uses of nodeValue:",
+    "Answer": "nodeValue for element nodes is null"
+  },
+  {
+    "Question": "\nnodeValue for text nodes is the text itself\nnodeValue for attribute nodes is the attribute value",
+    "Answer": "The most important nodeType properties are:,\"ELEMENT_NODE 1 <h1 class=\"\"heading\"\">W3Schools</h1>\"\r"
+  },
+  {
+    "Question": "\n\"ATTRIBUTE_NODE 2 class = \"\"heading\"\" (deprecated)\"\nTEXT_NODE 3 W3Schools\nCOMMENT_NODE 8 <!-- This is a comment -->\nDOCUMENT_NODE 9 The HTML document itself (the parent of <html>)\nDOCUMENT_TYPE_NODE 10 <!Doctype html>",
+    "Answer": "\"In terms of DOM, <html> =\",document.documentElement\r"
+  },
+  {
+    "Question": "\"In terms of DOM, <body> =\"",
+    "Answer": "document.body"
+  },
+  {
+    "Question": "\"In terms of DOM, <head> =\"",
+    "Answer": "document.head"
+  },
+  {
+    "Question": "elem.childNodes[0] ===",
+    "Answer": "elem.firstChild"
+  },
+  {
+    "Question": "elem.childNodes[elem.childNodes.length - 1] ===",
+    "Answer": "elem.lastChild"
+  },
+  {
+    "Question": "elem.hasChildNodes()",
+    "Answer": "used to check whether there are any child nodes"
+  },
+  {
+    "Question": "childNodes",
+    "Answer": "It looks like an array but it's not. It's a collection - a special array-like iterable objec"
+  }
+]

@@ -1,0 +1,25 @@
+{
+	"name": "Not So Fast",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Hey, Not So Fast, Buddy!",
+	"background": {
+		"scripts": [
+			"js/bkgd.js"
+		]
+	},
+	"icons": {
+		"128": "icon.jpg"
+	  },
+	"browser_action": {
+		"default_icon": "icon.jpg",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"<all_urls>",
+		"tabs",
+		"storage",
+		"webRequest",
+		"webRequestBlocking"
+	]
+}
