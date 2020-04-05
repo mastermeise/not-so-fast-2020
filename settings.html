@@ -10,31 +10,27 @@
     
     <div class="container">
         <h1>Settings</h1>
-        <div class="btn">Finished</div>
+        <div class="btn" id="finished">Finished</div>
         <!-- Number of Questions -->
-        <div id="number-of-questions" class="box settings">
-            <h1>Number of Questions</h1>
-            <button class="unSelectedBtn numBtn">5</button>
-            <button class="unSelectedBtn numBtn">10</button>
-            <button class="unSelectedBtn numBtn">20</button>
-            <button class="unSelectedBtn numBtn">50</button>
+        <div id="number-of-questions" class="settings">
+            <h2>Number of Questions</h2>
+            <button class="unSelectedBtn numBtn btn">5</button>
+            <button class="unSelectedBtn numBtn btn">10</button>
+            <button class="unSelectedBtn numBtn btn">20</button>
+            <button class="unSelectedBtn numBtn btn">50</button>
         </div>
         <!-- Websites -->
-        <div id="websites" class="box settings">
-            <h1>Websites</h1>
-            <input id="web">
+        <div id="websites" class="settings">
+            <h2>Websites</h2>
+            <textarea id="web"></textarea>
         </div><!-- End Websites -->
         <!-- Questions -->
-        <div id="questions" class="box settings">
-            <h1>Questions</h1>
+        <div id="questions" class="settings">
+            <h2>Questions</h2>
             <button id="basicBtn" class="unSelectedBtn">JavaScript</button>
-            <br>
             <button id="spanishBtn" class="unSelectedBtn">Spanish</button>
-            <br>
             <button id="uploadBtn" class="unSelectedBtn">Use Your Own</button>
-            <br>
             <input id="fileBtn" class="SelectedBtn hiddenBtn" type="file">
-            <br>
             <button id="downloadBtn" class="SelectedBtn hiddenBtn">Download Template</button>
             <br>
         </div><!-- End Questions -->
