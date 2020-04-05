@@ -154,7 +154,8 @@ html.settings {
 }
 
 .container {
-    width: 540px;
+
+	width: 540px;
     min-height: 100%;
     /*overflow: hidden;*/
     margin: 0 auto;
@@ -217,6 +218,9 @@ html.settings {
     height: 100%;
     width: 100%;
 }
+html.settings .water {
+	margin-top: 36px;
+}
 
 .troll {
     width: 250px;
@@ -263,6 +267,10 @@ h1 {
     line-height: 28px;
     margin: 40px 0 0;
     color: #00cdec;
+}
+
+html.settings h1 {
+	color: white;
 }
 
 a {
@@ -335,14 +343,6 @@ a {
 
 .speech h1 {
     text-align: center;
-}
-
-.settings-h1 {
-    text-align: center;
-    font-size: 36px;
-    margin: 0 0 60px;
-    color: #fff;
-    padding-top: 12px;
 }
 
 .settings {

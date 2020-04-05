@@ -31,18 +31,26 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 		if (tabUrl.indexOf('?passed=true') == -1) {
 			tabUrl = tabUrl.replace('http://', '').replace('https://', '');
 			blocked_websites = (localStorage.getItem('blocked_websites'));
+			blocked_websites = blocked_websites.replace(/\s/g, '');
 			blocked_websites = blocked_websites.split(',');
 			console.log(tabUrl, blocked_websites);
 
 			for (var j = 0; j < blocked_websites.length; j++) {
 				website = blocked_websites[j];
-				if (tabUrl.indexOf(website) != -1 && website!="") {
+				console.log(website,tabUrl ,website.indexOf('/')!=-1 && website.indexOf("/") < (tabUrl.length-1), website.indexOf("/") , (tabUrl.length-1) );
+				
+				if( !(website.indexOf('/')!=-1 && website.indexOf("/") < (tabUrl.length-1 ) )){
+				if (tabUrl.indexOf(website) != -1 && website != "") {
 					console.log(website, tabUrl, "\n", tabUrl.indexOf("/"), tabUrl.indexOf(website), tabUrl.indexOf("/") > tabUrl.indexOf(website));
 					if (tabUrl.indexOf("/") > tabUrl.indexOf(website)) {
 
 						chrome.tabs.update(tab.id, { url: 'chrome-extension://' + chrome.i18n.getMessage("@@extension_id") + '/quiz.html?url=' + changeInfo.url });
 					}
 				}
+			}
+			else if(tabUrl==website.replace('http://', '').replace('https://', '')){
+				chrome.tabs.update(tab.id, { url: 'chrome-extension://' + chrome.i18n.getMessage("@@extension_id") + '/quiz.html?url=' + changeInfo.url });
+			}
 			}
 		}
 		else if (tabUrl.indexOf('?passed=true') >= 0) {
