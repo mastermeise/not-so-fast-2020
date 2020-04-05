@@ -7,33 +7,42 @@
 </head>
 
 <body>
-    
     <div class="container">
-        <h1>Settings</h1>
-        <div class="btn" id="finished">Finished</div>
-        <!-- Number of Questions -->
-        <div id="number-of-questions" class="settings">
-            <h2>Number of Questions</h2>
-            <button class="unSelectedBtn numBtn btn">5</button>
-            <button class="unSelectedBtn numBtn btn">10</button>
-            <button class="unSelectedBtn numBtn btn">20</button>
-            <button class="unSelectedBtn numBtn btn">50</button>
+        <div class="heading">
+            <h1>Settings</h1>
+            <div class="btn" id="finished">Done</div>
         </div>
-        <!-- Websites -->
-        <div id="websites" class="settings">
-            <h2>Websites</h2>
-            <textarea id="web"></textarea>
-        </div><!-- End Websites -->
-        <!-- Questions -->
-        <div id="questions" class="settings">
-            <h2>Questions</h2>
-            <button id="basicBtn" class="unSelectedBtn">JavaScript</button>
-            <button id="spanishBtn" class="unSelectedBtn">Spanish</button>
-            <button id="uploadBtn" class="unSelectedBtn">Use Your Own</button>
+        <section id="websites">
+            <h2>Blocked Sites</h2>
+            <p>Enter URLs seperated by commas.</p>
+            <div class="grid">
+                <!-- If this starts acting funny need to change the textarea back to an input 
+                <input id="web" class="textarea" />-->
+                <textarea id="web" class="textarea"></textarea>
+            </div>
+        </section>
+        <section id="questions">
+            <h2>Question Bank</h2>
+            <p>Use ours or upload your own .csv file. <a id="downloadBtn" href="#">Download .csv template</a></p>
+            <div class="grid">
+                <button id="basicBtn" class="unSelectedBtn btn">JavaScript</button>
+                <button id="spanishBtn" class="unSelectedBtn btn">Spanish</button>
+                <button id="uploadBtn" class="unSelectedBtn btn">Use My Own</button>
+            </div>
+            <div class="uploader">
             <input id="fileBtn" class="SelectedBtn hiddenBtn" type="file">
-            <button id="downloadBtn" class="SelectedBtn hiddenBtn">Download Template</button>
-            <br>
-        </div><!-- End Questions -->
+            </div>
+        </section>
+        <section id="number-of-questions">
+            <h2># of Questions </h2>
+            <p>How many questions to you want to answer?</p>
+            <div class="grid">
+                <button class="unSelectedBtn numBtn btn">5</button>
+                <button class="unSelectedBtn numBtn btn">10</button>
+                <button class="unSelectedBtn numBtn btn">20</button>
+                <button class="unSelectedBtn numBtn btn">50</button>
+            </div>
+        </section>
     </div><!-- End Container -->
     <script src="js/jquery-1.7.1.min.js"></script>
     <link rel="stylesheet" href="css/jquery-ui.css">
