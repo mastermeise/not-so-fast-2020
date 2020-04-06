@@ -115,7 +115,7 @@ $(function () {
 
 
     document.getElementById("downloadBtn").addEventListener("click", function () {
-        $.get(chrome.extension.getURL('templete.csv'), {}, function (response) {
+        $.get(chrome.extension.getURL('template.csv'), {}, function (response) {
             download("data.csv", response);
         });
     });

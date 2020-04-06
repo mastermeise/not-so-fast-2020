@@ -140,21 +140,22 @@ html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 22px;
-    /* width: 100%; */
-    min-width: 540px;
+    min-width: 700px;
     min-height: 100vh;
 }
+
 html.quiz {
-	background: var(--light-blue);
+    background: var(--light-blue);
     background: url(../img/water-bottom.png) bottom center repeat-x var(--light-blue);
     background-size: 1104px 185px;
 }
+
 html.settings {
-	background: var(--blue);
+    background: var(--blue);
 }
 
 .container {
-	width: 540px;
+    width: 700px;
     min-height: 100%;
     /*overflow: hidden;*/
     margin: 0 auto;
@@ -209,7 +210,7 @@ html.settings {
     height: 96px;
     position: absolute;
     bottom: 0px;
-    width: 540px;
+    width: 700px;
 }
 
 .water {
@@ -217,8 +218,9 @@ html.settings {
     height: 100%;
     width: 100%;
 }
+
 html.settings .water {
-	margin-top: 36px;
+    margin-top: 36px;
 }
 
 .troll {
@@ -234,8 +236,8 @@ html.settings .water {
 }
 
 .troll img {
-	width: 100%;
-	-webkit-animation: troll-water 2.25s infinite ease-out;
+    width: 100%;
+    -webkit-animation: troll-water 2.25s infinite ease-out;
 }
 
 #waterleft,
@@ -268,7 +270,7 @@ h1 {
 }
 
 .settings h1 {
-	color: white;
+    color: white;
     display: inline-block;
 }
 
@@ -276,7 +278,7 @@ h1 {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     margin: 20px 0;
 }
 
@@ -284,20 +286,24 @@ h1 {
     margin-left: auto;
 }
 
-
-
-h2 {
-    font-size: 24px;
-    color: white;
+.settings section {
+    margin-bottom: 20px;
 }
 
-p {
+.settings h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.settings p {
     font-size: 16px;
     color: white;
     opacity: 0.75;
+    margin-bottom: 20px;
 }
 
-a {
+.settings a {
     color: white;
 }
 
@@ -342,7 +348,8 @@ button.SelectedBtn {
     display: inline-block;
 }
 
-button.hiddenBtn, input.hiddenBtn {
+button.hiddenBtn,
+input.hiddenBtn {
     display: none;
 }
 
@@ -352,26 +359,24 @@ button.showBtn {
 
 
 
-.settings section {
-    margin-bottom: 20px;
-}
+
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 20px; 
+    grid-gap: 20px;
 }
 
 .textarea {
-     height: 80px;
-     background: var(--dark-blue);
-     color: white;
-     font-size: 16px;
-     border: none;
-     border-radius: 4px;
-     box-shadow: inset 0 0 5px 0 rgba(0,0,0,.1);
-     padding: 10px;
-} 
+    height: 80px;
+    background: var(--dark-blue);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);
+    padding: 10px;
+}
 
 .uploader {
     background: red;
@@ -385,66 +390,87 @@ button.showBtn {
 
 /* == Content == */
 
-.box {
-    width: 516px;
-    background: #fff;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    padding: 0 12px;
-    overflow: auto;
-}
+.container {
+    height: calc(100vh - 185px);
 
-.box:hover {
-    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
 }
 
 .speech {
-    margin-top: 36px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.speech .single {
+    background: white;
+    border-radius: 4px;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.speech p {
+    color: gray;
+    margin-bottom: 50px;
 }
 
 .speech h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.speech a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    background: var(--blue);
+    color: white;
+}
+
+.speech .single::after {
+    content: url(../img/speech.png);
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 31px;
+    transform: rotate(180deg);
+    right: 20%;
+    margin-top: 20px;
+}
+
+
+#question {
     text-align: center;
+
+    padding-top: 50px;
 }
 
-.settings {
-    margin: 0 0 12px 0;
-    background: skyblue;
-}
-
-#websites {
-    color: rgb(19, 18, 18);
-}
-
-
-
-ul {
+#question ul {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "1 2"
-        "3 4";
+    grid-template-rows: 1fr;
+    margin-top: 20px;
 }
 
-ul li {
+#question ul li {
     background: white;
     -webkit-box-shadow: 0 1px 1px 0 #00a6bf;
     border-radius: 3px;
     cursor: pointer;
+    padding: 10px;
 }
 
-ul li:hover {
+#question ul li:hover {
     background: red;
 }
 
-ul li:last-child {
-    margin-bottom: 12px;
-}
-
-ul.answers li {
-    
-}
+ul.answers li {}
 
 ul.answers li img {
     margin-left: 40px;
@@ -476,87 +502,7 @@ span.add {
     background: #ebebeb;
 }
 
-.remove {
-    display: none;
-    float: right;
-    position: relative;
-    top: 3px;
-    right: 12px;
-    width: 16px;
-    height: 15px;
-    background: url(../img/remove.png) no-repeat;
-    opacity: .7;
-    cursor: pointer;
-}
 
-.remove:hover {
-    opacity: 1;
-}
-
-.progress {
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    position: absolute;
-    width: 52px;
-    left: 50%;
-    margin-left: -26px;
-    margin-top: -28px;
-    line-height: 1em;
-}
-
-#question .fade .progress {
-    margin-top: 12px;
-}
-
-#welcome {
-    text-align: center;
-    position: absolute;
-}
-
-#welcome .single {
-    position: relative;
-}
-
-#question {
-    display: none;
-}
-
-#question .single {
-    opacity: 0;
-    left: -36px;
-    position: relative;
-}
-
-#question .fade {
-    position: absolute;
-    width: 516px;
-    left: 12px;
-}
-
-
-/* == Settings Range == */
-
-input[type='range'] {
-    display: block;
-    width: 100%;
-    -webkit-appearance: none !important;
-    background: #ebebeb;
-    height: 12px;
-    margin: 24px 0 36px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    cursor: ew-resize;
-}
-
-input[type='range']::-webkit-slider-thumb {
-    -webkit-appearance: none !important;
-    background: url(../img/handle.png);
-    display: block;
-    height: 24px;
-    width: 24px;
-    cursor: ew-resize;
-}
 
 
 /* == Settings Add Inputs == */
