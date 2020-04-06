@@ -142,6 +142,7 @@ html {
     line-height: 22px;
     min-width: 700px;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 html.quiz {
@@ -321,7 +322,7 @@ h1 {
     display: inline-block;
 }
 
-.btn:hover {
+.btn:not(.SelectedBtn):hover {
     -webkit-box-shadow: 0 1px 5px 0 #00a6bf;
 }
 
@@ -430,6 +431,7 @@ button.showBtn {
     text-decoration: none;
     background: var(--blue);
     color: white;
+    cursor: pointer;
 }
 
 .speech .single::after {
@@ -467,6 +469,12 @@ button.showBtn {
 }
 
 #question ul li:hover {
+    -webkit-box-shadow: 0 1px 5px 0 #00a6bf;
+}
+#question ul li.q-correct {
+    background: green;
+}
+#question ul li.q-incorrect {
     background: red;
 }
 
@@ -584,18 +592,4 @@ form input {
 form.init .add {
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
-}
-
-#questions form {
-    width: 183px;
-}
-
-#questions ul {
-    display: none;
-    margin-top: 10px;
-}
-
-#questions ul:nth-child(2) {
-    display: block;
-    margin-top: 20px;
 }

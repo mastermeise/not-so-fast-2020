@@ -1,3 +1,4 @@
+
 var quiz = {};
 
 (function (window, undefined) {
@@ -60,7 +61,7 @@ var quiz = {};
 			currentQuestionNum = 1;
 
 			if (questions) {
-				$('#welcome .single').animate({ left: -82, opacity: 0 }, 600, 'easeInQuad', function () {
+				$('#welcome .single').animate({ opacity: 0, marginTop: -200 }, 600, 'easeInQuad', function () {
 					$(this).parent().hide();
 				});
 				$('#question').show();
@@ -68,7 +69,7 @@ var quiz = {};
 				quiz.nextQuestion();
 			}
 			else {
-				setTimeout(quiz.start, 1000);
+				setTimeout(quiz.start, 600);
 			}
 		}
 	};
@@ -121,11 +122,16 @@ var quiz = {};
 		}
 
 		newQuestion.append(list);
-		$('#question div.single').addClass('fade').css('left', 12).animate({ left: -70, opacity: 0 }, 600, 'easeInQuad', function () {
+		//the timing below is setting how long for the question just answered to disappear
+		$('#question div.single').addClass('fade').animate({ opacity: 0 }, 800, 'easeInQuad', function () {
 			$(this).remove();
 		});
-		$('#question').append(newQuestion);
-		newQuestion.delay(200).animate({ left: 0, opacity: 1 }, 500, 'easeOutQuad');
+		
+		setTimeout(function(){
+			$('#question').append(newQuestion);
+			newQuestion;
+		}, 800);
+		
 
 		/*	var opClick = function (e) {
 				e.preventDefault();
@@ -151,22 +157,22 @@ var quiz = {};
 		if (currentQuestion.Answer == $(this).html()) {
 			currentQuestionNum++;
 			//console.log("added 1 to curr num", currentQuestion);
-			$(this).append('<img src="img/choice_check.png" />');
+			$(this).addClass('q-correct');
 		}
 		else {
-			$(this).append('<img src="img/choice_x.png" />');
+			$(this).addClass('q-incorrect');
 			$(this).siblings().each(function (i, choice) {
 				choice = $(choice);
 				//console.log(i,(choice).html()==currentQuestion.Answer);
 
 				if (choice.html() == currentQuestion.Answer) {
-					choice.append('<img src="img/choice_check.png" />');
+					choice.addClass('q-correct');
 				}
 			});
 		}
 
 		if (currentQuestionNum <= numOfQuestions) {
-			setTimeout(quiz.nextQuestion, 1000);
+			setTimeout(quiz.nextQuestion, 10);
 		}
 		else {
 			setTimeout(function () {
