@@ -51,10 +51,12 @@ var settings = {};
 
         if (id == "#uploadBtn") {
             $('#fileBtn').removeClass("hiddenBtn").addClass("showBtn");
+            $('.uploader').removeClass("hiddenBtn").addClass("showBtn");
             $('#downloadBtn').removeClass("hiddenBtn").addClass("showBtn");
         }
         if (id != "#uploadBtn" || (id == "#uploadBtn" && selected == false)) {
             $('#fileBtn').removeClass("showBtn").addClass("hiddenBtn");
+            $('.uploader').removeClass("showBtn").addClass("hiddenBtn");
             $('#downloadBtn').removeClass("showBtn").addClass("hiddenBtn");
         }
         $(id).css('display', '');
@@ -76,6 +78,7 @@ var settings = {};
                     $(this).removeClass("unSelectedBtn").addClass("SelectedBtn");
                     if ("#" + (this).id == "#uploadBtn") {
                         $('#fileBtn').removeClass("hiddenBtn").addClass("showBtn");
+                        $('.uploader').removeClass("hiddenBtn").addClass("showBtn");
                         $('#downloadBtn').removeClass("hiddenBtn").addClass("showBtn");
                     }
                 }
@@ -85,6 +88,8 @@ var settings = {};
 
 
     settings.getWebsites = function() {
+        var prevfile = localStorage.getItem('uploadedfilename');
+        $("#prevFile").html(prevfile);
         blocked_websites = localStorage.getItem('blocked_websites');
         $("#web").val(blocked_websites);
     };

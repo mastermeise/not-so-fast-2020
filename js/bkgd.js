@@ -7,7 +7,7 @@ if (chosenQuiz == null) {
 	localStorage.setItem('num_of_questions', 5);
 	var quizzes = '{"id":"#spanishBtn","title":"#spanishBtn","on":true}';
 	localStorage.setItem('quizzes', quizzes);
-	localStorage.setItem('blocked_websites', 'facebook.com,');
+	localStorage.setItem('blocked_websites', 'facebook.com,fb.com,');
 
 }
 

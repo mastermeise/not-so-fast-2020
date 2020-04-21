@@ -19,8 +19,10 @@ var csvjsonConverter = (csvdata, delimiter) => {
         if (csvrows[i].length > 2 && csvrows[i].indexOf(",") != -1) {
             var reg = regexp;
             var firstpart = csvrows[i].substring(0, csvrows[i].lastIndexOf(","));
+            var qfirstpart = csvrows[i].substring(0,  csvrows[i].indexOf(","));
+            var qsecondpart = csvrows[i].substring(csvrows[i].indexOf(",") + 1, csvrows[i].length - 1);
             var secondpart = csvrows[i].substring(csvrows[i].lastIndexOf(",") + 1, csvrows[i].length - 1);
-            console.log('\n\n\n\nrow="' + csvrows[i] + '"');
+           // console.log('\n\n\n\nrow="' + csvrows[i] + '"');
 
             if (typeof secondpart === "undefined") {
                 prevquestion = prevquestion + "\n" + firstpart;
@@ -32,10 +34,17 @@ var csvjsonConverter = (csvdata, delimiter) => {
                     firstpart = prevquestion;
                     secondpart = csvrows[i];
                 }
+              //  console.log("comma cut ",qfirstpart," 2nd ", qsecondpart);
+                
+                if(typeof qfirstpart!=="undefined" && typeof qsecondpart!=="undefined" && prevquestion == "")
+                if(qfirstpart.lastIndexOf('"') || qsecondpart.lastIndexOf('"') || qsecondpart.indexOf('"') ){
+                    firstpart=qfirstpart;
+                    secondpart=qsecondpart;
+                }
                 prevquestion = "";
                 //if (firstpart!="#ERROR!")
                 {
-                    console.log('\n1st= *' + firstpart, '*\n2nd *' + secondpart + "*");
+                   // console.log('\n1st= *' + firstpart, '*\n2nd *' + secondpart + "*");
                     array[array.length - 1].push(firstpart);
                     array[array.length - 1].push(secondpart);
                     array.push([]);
@@ -49,7 +58,7 @@ var csvjsonConverter = (csvdata, delimiter) => {
 
 
 
-    console.log(array);
+   // console.log(array);
 
     //This will parse the resulting array into JSON format
     for (let i = 0; i < array.length - 1; i++) {
@@ -90,6 +99,10 @@ $(function () {
                 var rows = e.target.result;
                 var convertjson = csvjsonConverter(rows, ',');
                 localStorage.setItem('uploadedjson', convertjson);
+                localStorage.setItem('uploadedfilename', $("#fileBtn")[0].files[0].name);
+                var prevfile =  $("#fileBtn")[0].files[0].name;
+                $("#prevFile").html(prevfile);
+                
                 console.log(convertjson);
 
             };

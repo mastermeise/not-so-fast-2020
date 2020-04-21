@@ -347,9 +347,8 @@ button.SelectedBtn {
         box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);
 }
 
-button.hiddenBtn,
-input.hiddenBtn {
-    display: none;
+.hiddenBtn {
+    display: none !important;
 }
 
 button.showBtn {
@@ -479,10 +478,12 @@ button.showBtn {
 
 #question ul li.q-correct {
     background: green;
+    color: white;
 }
 
 #question ul li.q-incorrect {
     background: red;
+    color: white;
 }
 
 ul.answers li {}
