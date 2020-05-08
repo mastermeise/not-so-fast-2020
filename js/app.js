@@ -2,7 +2,9 @@
 var csvrows;
 var csvjsonConverter = (csvdata, delimiter) => {
     let arrmatch = [];
-    let array = [[]];
+    let array = [
+        []
+    ];
     let quotevals = "";
     let jsonarray = [];
     let k = 0;
@@ -19,32 +21,31 @@ var csvjsonConverter = (csvdata, delimiter) => {
         if (csvrows[i].length > 2 && csvrows[i].indexOf(",") != -1) {
             var reg = regexp;
             var firstpart = csvrows[i].substring(0, csvrows[i].lastIndexOf(","));
-            var qfirstpart = csvrows[i].substring(0,  csvrows[i].indexOf(","));
+            var qfirstpart = csvrows[i].substring(0, csvrows[i].indexOf(","));
             var qsecondpart = csvrows[i].substring(csvrows[i].indexOf(",") + 1, csvrows[i].length - 1);
             var secondpart = csvrows[i].substring(csvrows[i].lastIndexOf(",") + 1, csvrows[i].length - 1);
-           // console.log('\n\n\n\nrow="' + csvrows[i] + '"');
+            // console.log('\n\n\n\nrow="' + csvrows[i] + '"');
 
             if (typeof secondpart === "undefined") {
                 prevquestion = prevquestion + "\n" + firstpart;
-            }
-            else if ((secondpart.length <= 2 && secondpart.indexOf(",") != -1) || secondpart == "") {
+            } else if ((secondpart.length <= 2 && secondpart.indexOf(",") != -1) || secondpart == "") {
                 prevquestion = prevquestion + "\n" + firstpart;
             } else {
                 if (prevquestion != "") {
                     firstpart = prevquestion;
                     secondpart = csvrows[i];
                 }
-              //  console.log("comma cut ",qfirstpart," 2nd ", qsecondpart);
-                
-                if(typeof qfirstpart!=="undefined" && typeof qsecondpart!=="undefined" && prevquestion == "")
-                if(qfirstpart.lastIndexOf('"') || qsecondpart.lastIndexOf('"') || qsecondpart.indexOf('"') ){
-                    firstpart=qfirstpart;
-                    secondpart=qsecondpart;
-                }
+                //  console.log("comma cut ",qfirstpart," 2nd ", qsecondpart);
+
+                if (typeof qfirstpart !== "undefined" && typeof qsecondpart !== "undefined" && prevquestion == "")
+                    if (qfirstpart.lastIndexOf('"') || qsecondpart.lastIndexOf('"') || qsecondpart.indexOf('"')) {
+                        firstpart = qfirstpart;
+                        secondpart = qsecondpart;
+                    }
                 prevquestion = "";
                 //if (firstpart!="#ERROR!")
                 {
-                   // console.log('\n1st= *' + firstpart, '*\n2nd *' + secondpart + "*");
+                    // console.log('\n1st= *' + firstpart, '*\n2nd *' + secondpart + "*");
                     array[array.length - 1].push(firstpart);
                     array[array.length - 1].push(secondpart);
                     array.push([]);
@@ -58,7 +59,7 @@ var csvjsonConverter = (csvdata, delimiter) => {
 
 
 
-   // console.log(array);
+    // console.log(array);
 
     //This will parse the resulting array into JSON format
     for (let i = 0; i < array.length - 1; i++) {
@@ -88,27 +89,26 @@ var csvjsonConverter = (csvdata, delimiter) => {
 };
 
 //This jQuery will perform in the front-end to convert from CSV to JSON.
-$(function () {
+$(function() {
     //When the 'Convert' button is clicked, it will first make sure if the csv file is uploaded and then it goes to the
     //convert function above to convert it from CSV to JSON. Afterwards, it will print the result in a textarea.
-    $("#fileBtn").change(function () {
+    $("#fileBtn").change(function() {
         var csv = $("#fileBtn")[0].files[0];
         if (csv !== undefined) {
             var reader = new FileReader();
-            reader.onload = function (e) {
+            reader.onload = function(e) {
                 var rows = e.target.result;
                 var convertjson = csvjsonConverter(rows, ',');
                 localStorage.setItem('uploadedjson', convertjson);
                 localStorage.setItem('uploadedfilename', $("#fileBtn")[0].files[0].name);
-                var prevfile =  $("#fileBtn")[0].files[0].name;
+                var prevfile = $("#fileBtn")[0].files[0].name;
                 $("#prevFile").html(prevfile);
-                
+
                 console.log(convertjson);
 
             };
             reader.readAsText(csv);
-        }
-        else {
+        } else {
             alert("Please upload your csv file.");
         }
     });
@@ -126,23 +126,16 @@ $(function () {
         document.body.removeChild(element);
     }
 
-
-    document.getElementById("downloadBtn").addEventListener("click", function () {
-        $.get(chrome.extension.getURL('template.csv'), {}, function (response) {
-            download("data.csv", response);
-        });
-    });
-   
-    document.getElementById("web").addEventListener("change", function () {
-        localStorage.setItem('blocked_websites', $(this).val() );
+    document.getElementById("web").addEventListener("change", function() {
+        localStorage.setItem('blocked_websites', $(this).val());
     });
 
-    $(".numBtn").each(function (i, choice1) {
-        document.getElementsByClassName("numBtn")[i].addEventListener("click", function () {
-          $(this).removeClass("unSelectedBtn").addClass("SelectedBtn");
-		localStorage.setItem('num_of_questions', $(this).html() );
-         
-          $(this).siblings().each(function (i, choice) {
+    $(".numBtn").each(function(i, choice1) {
+        document.getElementsByClassName("numBtn")[i].addEventListener("click", function() {
+            $(this).removeClass("unSelectedBtn").addClass("SelectedBtn");
+            localStorage.setItem('num_of_questions', $(this).html());
+
+            $(this).siblings().each(function(i, choice) {
                 choice = $(choice);
                 choice.removeClass("SelectedBtn").addClass("unSelectedBtn");
                 console.log(i, (choice).html());

@@ -306,6 +306,12 @@ h1 {
 
 .settings a {
     color: white;
+    opacity: 0.75;
+}
+
+.settings a:hover {
+    color: white;
+    opacity: 1;
 }
 
 .btn {
