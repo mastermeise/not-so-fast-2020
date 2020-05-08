@@ -377,11 +377,41 @@ button.showBtn {
 }
 
 .uploader {
-    background: red;
+    background: var(--dark-blue);
+    /*box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, .1);*/
     margin-top: 20px;
     padding: 5px;
     border-radius: 3px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#fileBtn {
+    padding: 0;
+    margin: 0;
+    align-items: bottom;
+    height: 18px;
+    color: white;
+}
+
+#prevFile {
+    color: white;
+    font-size: 16px;
+}
+
+.uploader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 84%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: var(--dark-blue);
+    border-top: 0;
+    margin-left: -10px;
+    margin-top: -10px;
 }
 
 
