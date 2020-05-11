@@ -1,1078 +1,1190 @@
 [
   {
-    "Question": "Es",
-    "Answer": "its"
+    "Question": "parque",
+    "Answer": "park"
   },
   {
-    "Question": "Un",
-    "Answer": "an"
+    "Question": "hospital",
+    "Answer": "hospital"
   },
   {
-    "Question": "Tengo",
-    "Answer": "I have"
+    "Question": "iglesia",
+    "Answer": "Church"
   },
   {
-    "Question": "No",
-    "Answer": "I dont have , its not"
+    "Question": "Cine",
+    "Answer": "cinema"
   },
   {
-    "Question": "Tú",
-    "Answer": "You"
+    "Question": "biblioteca",
+    "Answer": "library"
   },
   {
-    "Question": "Eí",
-    "Answer": "He"
+    "Question": "librería",
+    "Answer": "bookstore"
   },
   {
-    "Question": "El/La",
-    "Answer": "The"
+    "Question": "teatro",
+    "Answer": "theater"
   },
   {
-    "Question": "Ella",
-    "Answer": "She"
+    "Question": "hotel",
+    "Answer": "hotel"
   },
   {
-    "Question": "Sabes",
-    "Answer": "Know"
+    "Question": "museo",
+    "Answer": "museum"
   },
   {
-    "Question": "Que",
-    "Answer": "that/this/what/than"
+    "Question": "correo",
+    "Answer": "post office"
   },
   {
-    "Question": "Este",
-    "Answer": "This"
+    "Question": "banco",
+    "Answer": "bank"
   },
   {
-    "Question": "Tan",
-    "Answer": "so"
+    "Question": "panadería",
+    "Answer": "bakery"
   },
   {
-    "Question": "Era",
-    "Answer": "Was"
+    "Question": "farmacia",
+    "Answer": "pharmacy"
   },
   {
-    "Question": "Cuando",
-    "Answer": "When"
+    "Question": "carnicería",
+    "Answer": "butcher shop"
   },
   {
-    "Question": "Deje",
-    "Answer": "Stops"
+    "Question": "zapatería",
+    "Answer": "shoestore"
   },
   {
-    "Question": "De",
-    "Answer": "of,from,by,which, at, about,out, off, than"
+    "Question": "salón de belleza",
+    "Answer": "beauty salon"
   },
   {
-    "Question": "Y",
-    "Answer": "And"
+    "Question": "supermercado",
+    "Answer": "supermarket"
   },
   {
-    "Question": "Todo",
-    "Answer": "All"
+    "Question": "peluquería",
+    "Answer": "barbershop"
   },
   {
-    "Question": "Cuerpo",
-    "Answer": "Body"
+    "Question": "zoológico",
+    "Answer": "zoo"
   },
   {
-    "Question": "Soy",
-    "Answer": "I am"
+    "Question": "tienda",
+    "Answer": "store"
   },
   {
-    "Question": "Cada",
-    "Answer": "Every"
+    "Question": "estación de bomberos",
+    "Answer": "fire station"
   },
   {
-    "Question": "Instante",
-    "Answer": "Moment"
+    "Question": "aeropuerto",
+    "Answer": "airport"
   },
   {
-    "Question": "Momento",
-    "Answer": "Times"
+    "Question": "parada de autobuses",
+    "Answer": "bus stop"
   },
   {
-    "Question": "Lost",
-    "Answer": "The"
+    "Question": "estación del tren",
+    "Answer": "train station"
   },
   {
-    "Question": "No son",
-    "Answer": "they aren't"
+    "Question": "bodega",
+    "Answer": "warehouse"
   },
   {
-    "Question": "Son",
-    "Answer": "they are"
+    "Question": "almacén",
+    "Answer": "department store"
   },
   {
-    "Question": "bienvendido",
-    "Answer": "Welcome"
+    "Question": "mercado",
+    "Answer": "market"
   },
   {
-    "Question": "Gusto",
-    "Answer": "pleasure"
+    "Question": "gasolinera",
+    "Answer": "gas station"
   },
   {
-    "Question": "disculpe",
-    "Answer": "Excuse me"
-  },
-  {
-    "Question": "a tenderle",
-    "Answer": "to serve you"
-  },
-  {
-    "Question": "quiero",
-    "Answer": "do you want"
-  },
-  {
-    "Question": "Tipo",
-    "Answer": "kind"
-  },
-  {
-    "Question": "Reservar",
-    "Answer": "to book"
-  },
-  {
-    "Question": "Estándar",
-    "Answer": "Regular"
-  },
-  {
-    "Question": "Por",
-    "Answer": "For"
-  },
-  {
-    "Question": "La",
-    "Answer": "per"
-  },
-  {
-    "Question": "O",
-    "Answer": "OR"
-  },
-  {
-    "Question": "le gusta",
-    "Answer": "you like"
-  },
-  {
-    "Question": "estar",
-    "Answer": "to be"
-  },
-  {
-    "Question": "cómodo",
-    "Answer": "comfortable"
-  },
-  {
-    "Question": "Muy",
-    "Answer": "very"
-  },
-  {
-    "Question": "Neccesita",
-    "Answer": "do you need, i need"
-  },
-  {
-    "Question": "Alguin",
-    "Answer": "any"
-  },
-  {
-    "Question": "Servicio",
-    "Answer": "service"
-  },
-  {
-    "Question": "Especial",
-    "Answer": "special"
-  },
-  {
-    "Question": "Tenemos",
-    "Answer": "We have"
-  },
-  {
-    "Question": "Masajes",
-    "Answer": "Massages"
-  },
-  {
-    "Question": "Voy",
-    "Answer": "I will"
-  },
-  {
-    "Question": "Hacer",
-    "Answer": "Make"
-  },
-  {
-    "Question": "Nóta",
-    "Answer": "Note"
-  },
-  {
-    "Question": "va a",
-    "Answer": "will you"
-  },
-  {
-    "Question": "quedarse",
-    "Answer": "stay"
-  },
-  {
-    "Question": "personas",
-    "Answer": "people"
-  },
-  {
-    "Question": "información",
-    "Answer": "information"
-  },
-  {
-    "Question": "acerca",
-    "Answer": "about"
-  },
-  {
-    "Question": "teatros",
-    "Answer": "theaters"
-  },
-  {
-    "Question": "museos",
-    "Answer": "museums"
-  },
-  {
-    "Question": "zoologicos",
-    "Answer": "zoos"
-  },
-  {
-    "Question": "ya casi",
-    "Answer": "almost"
-  },
-  {
-    "Question": "terminamos",
-    "Answer": "we are done"
-  },
-  {
-    "Question": "solo",
-    "Answer": "just"
-  },
-  {
-    "Question": "su",
-    "Answer": "your"
-  },
-  {
-    "Question": "tarjeta",
-    "Answer": 0
-  },
-  {
-    "Question": "Tiene",
-    "Answer": "do you have"
-  },
-  {
-    "Question": "entonces",
-    "Answer": "then"
-  },
-  {
-    "Question": "tomar",
-    "Answer": "take"
-  },
-  {
-    "Question": "reloj",
-    "Answer": "watch"
-  },
-  {
-    "Question": "más",
-    "Answer": "more"
-  },
-  {
-    "Question": "Mio/Mi",
-    "Answer": "my"
-  },
-  {
-    "Question": "necesutas",
-    "Answer": "need"
-  },
-  {
-    "Question": "eres",
-    "Answer": "you are"
-  },
-  {
-    "Question": "ustedes",
-    "Answer": "you"
-  },
-  {
-    "Question": "suyo",
-    "Answer": "yours"
-  },
-  {
-    "Question": "su",
-    "Answer": "yours/his/their"
-  },
-  {
-    "Question": "Nuestros",
-    "Answer": "theirs / ours"
-  },
-  {
-    "Question": "Quiero",
-    "Answer": "i want"
-  },
-  {
-    "Question": "los",
-    "Answer": "the"
-  },
-  {
-    "Question": "ellos",
-    "Answer": "they"
-  },
-  {
-    "Question": "es",
-    "Answer": "is / are"
-  },
-  {
-    "Question": "Si",
-    "Answer": "if"
-  },
-  {
-    "Question": "seguiremos",
-    "Answer": "we will continue"
-  },
-  {
-    "Question": "siendo",
-    "Answer": "being"
-  },
-  {
-    "Question": "como",
-    "Answer": "like"
-  },
-  {
-    "Question": "hoy",
-    "Answer": "today"
-  },
-  {
-    "Question": "amanecer",
-    "Answer": "sunrise"
-  },
-  {
-    "Question": "misma",
-    "Answer": "same"
-  },
-  {
-    "Question": "sed",
-    "Answer": "thirst"
-  },
-  {
-    "Question": "pensar",
-    "Answer": "think"
-  },
-  {
-    "Question": "suponer",
-    "Answer": "suppose"
-  },
-  {
-    "Question": "cosas",
-    "Answer": "things"
-  },
-  {
-    "Question": "parar",
-    "Answer": "stop"
-  },
-  {
-    "Question": "eso",
-    "Answer": "that"
-  },
-  {
-    "Question": "ya",
-    "Answer": "already"
-  },
-  {
-    "Question": "peil",
-    "Answer": "skin"
-  },
-  {
-    "Question": "dirá",
-    "Answer": "will tell"
-  },
-  {
-    "Question": "nos",
-    "Answer": "us"
-  },
-  {
-    "Question": "jurar",
-    "Answer": "swear"
-  },
-  {
-    "Question": "prometer",
-    "Answer": "promise"
-  },
-  {
-    "Question": "algo",
-    "Answer": "something"
-  },
-  {
-    "Question": "poder",
-    "Answer": "power"
-  },
-  {
-    "Question": "loque",
-    "Answer": "what"
-  },
-  {
-    "Question": "pidas algo",
-    "Answer": "ask for something"
-  },
-  {
-    "Question": "tiempo",
-    "Answer": "time"
-  },
-  {
-    "Question": "estraremos",
-    "Answer": "if we will be"
-  },
-  {
-    "Question": "juntos",
-    "Answer": "together"
-  },
-  {
-    "Question": "acaba",
-    "Answer": "end"
-  },
-  {
-    "Question": "mundo",
-    "Answer": "world"
-  },
-  {
-    "Question": "ti",
-    "Answer": "you"
-  },
-  {
-    "Question": "serás",
-    "Answer": "you will"
-  },
-  {
-    "Question": "amarnos",
-    "Answer": "love each other"
-  },
-  {
-    "Question": "ordiarnos",
-    "Answer": "hate us"
-  },
-  {
-    "Question": "lleguemos",
-    "Answer": "come"
-  },
-  {
-    "Question": "quien",
-    "Answer": "who"
-  },
-  {
-    "Question": "va",
-    "Answer": "going"
-  },
-  {
-    "Question": "caminamos",
-    "Answer": "(we)walk"
-  },
-  {
-    "Question": "corremos",
-    "Answer": "we run"
-  },
-  {
-    "Question": "tenemos",
-    "Answer": "we have"
-  },
-  {
-    "Question": "corren",
-    "Answer": "they run"
-  },
-  {
-    "Question": "ven",
-    "Answer": "see"
-  },
-  {
-    "Question": "nadan",
-    "Answer": "they swim"
-  },
-  {
-    "Question": "dormimos",
-    "Answer": "we sleep"
-  },
-  {
-    "Question": "camina",
-    "Answer": "walks"
-  },
-  {
-    "Question": "duermen",
-    "Answer": "they sleep"
-  },
-  {
-    "Question": "nadamos",
-    "Answer": "we swim"
-  },
-  {
-    "Question": "van",
-    "Answer": "go"
-  },
-  {
-    "Question": "quieres",
-    "Answer": "want"
-  },
-  {
-    "Question": "pagas",
-    "Answer": "you pay"
-  },
-  {
-    "Question": "queremos",
-    "Answer": "we want"
-  },
-  {
-    "Question": "quiere",
-    "Answer": "wants"
-  },
-  {
-    "Question": "quieren",
-    "Answer": "they want"
-  },
-  {
-    "Question": "vas",
-    "Answer": "going / you go"
-  },
-  {
-    "Question": "come",
-    "Answer": "eats"
-  },
-  {
-    "Question": "haces",
-    "Answer": "you do"
-  },
-  {
-    "Question": "tocamos",
-    "Answer": "we touch"
-  },
-  {
-    "Question": "oímos",
-    "Answer": "we hear"
-  },
-  {
-    "Question": "oigo",
-    "Answer": "i hear"
-  },
-  {
-    "Question": "oyen",
-    "Answer": "they hear"
-  },
-  {
-    "Question": "tocan",
-    "Answer": "touch"
-  },
-  {
-    "Question": "habla",
-    "Answer": "he/she speaks"
-  },
-  {
-    "Question": "lechuga",
-    "Answer": "lettuce"
-  },
-  {
-    "Question": "zanahorias",
-    "Answer": "carrots"
-  },
-  {
-    "Question": "ensaladas",
-    "Answer": "salads"
-  },
-  {
-    "Question": "hongos",
-    "Answer": "mushrooms"
-  },
-  {
-    "Question": "bananos",
-    "Answer": "bannas"
-  },
-  {
-    "Question": "uvas",
-    "Answer": "grapes"
-  },
-  {
-    "Question": "maiz",
-    "Answer": "corn"
-  },
-  {
-    "Question": "aciete",
-    "Answer": "oil"
-  },
-  {
-    "Question": "pasta",
-    "Answer": "pasta"
-  },
-  {
-    "Question": "hijos",
-    "Answer": "children"
-  },
-  {
-    "Question": "hijo",
-    "Answer": "son"
-  },
-  {
-    "Question": "hermanos",
-    "Answer": "brothers"
-  },
-  {
-    "Question": "marido",
-    "Answer": "husband"
-  },
-  {
-    "Question": "durante",
-    "Answer": "during"
-  },
-  {
-    "Question": "primos",
-    "Answer": "cousins"
-  },
-  {
-    "Question": "bebés",
-    "Answer": "babies"
-  },
-  {
-    "Question": "cerca",
-    "Answer": "near"
-  },
-  {
-    "Question": "tamaño",
-    "Answer": "size"
-  },
-  {
-    "Question": "corta",
-    "Answer": "short"
-  },
-  {
-    "Question": "bajo",
-    "Answer": "under"
-  },
-  {
-    "Question": "pequeño",
-    "Answer": "small"
-  },
-  {
-    "Question": "enormes",
-    "Answer": "huge"
-  },
-  {
-    "Question": "largos",
-    "Answer": "long"
-  },
-  {
-    "Question": "grandes",
-    "Answer": "big"
-  },
-  {
-    "Question": "alto",
-    "Answer": "tall"
-  },
-  {
-    "Question": "gran",
-    "Answer": "great"
-  },
-  {
-    "Question": "silla",
-    "Answer": "chair"
-  },
-  {
-    "Question": "cama",
-    "Answer": "bed"
-  },
-  {
-    "Question": "sillas",
-    "Answer": "chair"
-  },
-  {
-    "Question": "platos",
-    "Answer": "plates"
-  },
-  {
-    "Question": "plato",
-    "Answer": "plate"
-  },
-  {
-    "Question": "vasos",
-    "Answer": "glasses"
-  },
-  {
-    "Question": "mesa",
-    "Answer": "table"
-  },
-  {
-    "Question": "cucharas",
-    "Answer": "spoons"
-  },
-  {
-    "Question": "tazas",
-    "Answer": "cups"
-  },
-  {
-    "Question": "cuna",
-    "Answer": "crib"
-  },
-  {
-    "Question": "cocina",
-    "Answer": "kitchen"
-  },
-  {
-    "Question": "ventana",
-    "Answer": "window"
+    "Question": "centro comercial",
+    "Answer": "mall"
   },
   {
     "Question": "piscina",
     "Answer": "pool"
   },
   {
-    "Question": "espejo",
-    "Answer": "mirror"
+    "Question": "gimnasio",
+    "Answer": "gym"
   },
   {
-    "Question": "escritorio",
-    "Answer": "desks"
+    "Question": "garaje",
+    "Answer": "garage"
   },
   {
-    "Question": "esponja",
-    "Answer": "sponge"
+    "Question": "mueblería",
+    "Answer": "furniture store"
   },
   {
-    "Question": "puerta",
-    "Answer": "door"
+    "Question": "heladería",
+    "Answer": "ice cream parlor"
   },
   {
-    "Question": "sartén",
-    "Answer": "pan"
+    "Question": "vecinos",
+    "Answer": "neighbors"
   },
   {
-    "Question": "lámpara",
-    "Answer": "lamp"
+    "Question": "casa",
+    "Answer": "house"
   },
   {
-    "Question": "nuestro",
-    "Answer": "our"
+    "Question": "barrio",
+    "Answer": "neighborhood"
   },
   {
-    "Question": "piso",
-    "Answer": "floor"
+    "Question": "calle",
+    "Answer": "street"
   },
   {
-    "Question": "pared",
-    "Answer": "wall"
+    "Question": "avenida",
+    "Answer": "avenue"
   },
   {
-    "Question": "dormitorio",
-    "Answer": "bedroom"
+    "Question": "cuadra",
+    "Answer": "block"
   },
   {
-    "Question": "escalera",
-    "Answer": "ladder"
+    "Question": "Mi dirección",
+    "Answer": "my address"
   },
   {
-    "Question": "horno",
-    "Answer": "oven"
+    "Question": "ciudad",
+    "Answer": "city"
   },
   {
-    "Question": "sótano",
-    "Answer": "basement"
+    "Question": "campo",
+    "Answer": "country"
   },
   {
-    "Question": "techo",
-    "Answer": "roof"
+    "Question": "bosque",
+    "Answer": "forest"
   },
   {
-    "Question": "parades",
-    "Answer": "wall"
+    "Question": "selva",
+    "Answer": "jungle"
   },
   {
-    "Question": "lavadora",
-    "Answer": "washing machine"
+    "Question": "Las montañas",
+    "Answer": "mountains"
   },
   {
-    "Question": "limpia",
-    "Answer": "clean"
+    "Question": "Universidad",
+    "Answer": "university/college"
   },
   {
-    "Question": "cepillo",
-    "Answer": "brush"
+    "Question": "colegio",
+    "Answer": "high school"
   },
   {
-    "Question": "habitación",
-    "Answer": "room"
+    "Question": "escuela",
+    "Answer": "school"
   },
   {
-    "Question": "secadora",
-    "Answer": "dryer"
+    "Question": "cárcel",
+    "Answer": "jail"
   },
   {
-    "Question": "jabon",
-    "Answer": "soap"
+    "Question": "Quién",
+    "Answer": "Who"
   },
   {
-    "Question": "sábanas",
-    "Answer": "sheets"
+    "Question": "Qué",
+    "Answer": "What"
   },
   {
-    "Question": "cartera",
-    "Answer": "wallet"
+    "Question": "Cuándo",
+    "Answer": "When"
   },
   {
-    "Question": "rasuradora",
-    "Answer": "razor"
+    "Question": "Dónde",
+    "Answer": "Where"
   },
   {
-    "Question": "reina",
-    "Answer": "queen"
+    "Question": "De dónde",
+    "Answer": "From where"
   },
   {
-    "Question": "maestra",
-    "Answer": "teacher"
+    "Question": "Adónde",
+    "Answer": "To where"
   },
   {
-    "Question": "jefa",
-    "Answer": "boss"
+    "Question": "Por qué",
+    "Answer": "Why"
   },
   {
-    "Question": "reyes",
-    "Answer": "kings"
+    "Question": "Cómo",
+    "Answer": "How"
   },
   {
-    "Question": "rey",
-    "Answer": "king"
+    "Question": "Cuál",
+    "Answer": "Which"
   },
   {
-    "Question": "guardia",
-    "Answer": "guard"
+    "Question": "Cuánto",
+    "Answer": "How much"
   },
   {
-    "Question": "soldado",
-    "Answer": "soldier"
+    "Question": "Cuántos",
+    "Answer": "How many"
   },
   {
-    "Question": "juez",
-    "Answer": "judge"
+    "Question": "los días de semana",
+    "Answer": "the days of the week"
   },
   {
-    "Question": "empresaria",
-    "Answer": "buisness woman"
+    "Question": "hoy",
+    "Answer": "today"
   },
   {
-    "Question": "abogados",
-    "Answer": "lawyers"
+    "Question": "mañana",
+    "Answer": "tomorrow"
   },
   {
-    "Question": "periodista",
-    "Answer": "journalist"
+    "Question": "lunes",
+    "Answer": "Monday"
   },
   {
-    "Question": "empleado",
-    "Answer": "employer"
+    "Question": "martes",
+    "Answer": "Tuesday"
   },
   {
-    "Question": "agente",
-    "Answer": "agent"
+    "Question": "miércoles",
+    "Answer": "Wednesday"
   },
   {
-    "Question": "príncipe",
-    "Answer": "prince"
+    "Question": "jueves",
+    "Answer": "Thursday"
   },
   {
-    "Question": "dueña",
-    "Answer": "owner"
+    "Question": "viernes",
+    "Answer": "Friday"
   },
   {
-    "Question": "especialidad",
-    "Answer": "speciality"
+    "Question": "sábado",
+    "Answer": "Saturday"
+  },
+  {
+    "Question": "domingo",
+    "Answer": "Sunday"
+  },
+  {
+    "Question": "el mes",
+    "Answer": "the month"
+  },
+  {
+    "Question": "el año",
+    "Answer": "the year"
+  },
+  {
+    "Question": "enero",
+    "Answer": "January"
+  },
+  {
+    "Question": "febrero",
+    "Answer": "February"
+  },
+  {
+    "Question": "marzo",
+    "Answer": "March"
+  },
+  {
+    "Question": "abril",
+    "Answer": "April"
+  },
+  {
+    "Question": "mayo",
+    "Answer": "May"
+  },
+  {
+    "Question": "junio",
+    "Answer": "June"
+  },
+  {
+    "Question": "julio",
+    "Answer": "July"
+  },
+  {
+    "Question": "agosto",
+    "Answer": "August"
+  },
+  {
+    "Question": "septiembre",
+    "Answer": "September"
+  },
+  {
+    "Question": "octubre",
+    "Answer": "October"
+  },
+  {
+    "Question": "noviembre",
+    "Answer": "November"
+  },
+  {
+    "Question": "diciembre",
+    "Answer": "December"
+  },
+  {
+    "Question": "Padres",
+    "Answer": "parents"
+  },
+  {
+    "Question": "Madre",
+    "Answer": "mother"
+  },
+  {
+    "Question": "Padre",
+    "Answer": "father"
+  },
+  {
+    "Question": "Esposo",
+    "Answer": "husband"
+  },
+  {
+    "Question": "Esposa",
+    "Answer": "wife"
+  },
+  {
+    "Question": "Marido",
+    "Answer": "husband"
+  },
+  {
+    "Question": "Marida",
+    "Answer": "wife"
+  },
+  {
+    "Question": "Hijo",
+    "Answer": "child/son"
+  },
+  {
+    "Question": "Hija",
+    "Answer": "daughter"
+  },
+  {
+    "Question": "Niño",
+    "Answer": "child"
+  },
+  {
+    "Question": "Hermanos",
+    "Answer": "siblings"
+  },
+  {
+    "Question": "Hermano",
+    "Answer": "brother"
+  },
+  {
+    "Question": "Hermana",
+    "Answer": "sister"
+  },
+  {
+    "Question": "Tío",
+    "Answer": "uncle"
+  },
+  {
+    "Question": "Tía",
+    "Answer": "aunt"
+  },
+  {
+    "Question": "Sobrino",
+    "Answer": "nephew"
+  },
+  {
+    "Question": "Sobrina",
+    "Answer": "neice"
+  },
+  {
+    "Question": "Abuelo",
+    "Answer": "Grandpa"
+  },
+  {
+    "Question": "Abuela",
+    "Answer": "Grandma"
+  },
+  {
+    "Question": "Abuelos",
+    "Answer": "grandparents"
+  },
+  {
+    "Question": "Nietos",
+    "Answer": "grandchildren"
+  },
+  {
+    "Question": "Nieto",
+    "Answer": "grandson"
+  },
+  {
+    "Question": "Nieta",
+    "Answer": "granddaughter"
+  },
+  {
+    "Question": "Primos",
+    "Answer": "cousins"
+  },
+  {
+    "Question": "Primo",
+    "Answer": "cousin"
+  },
+  {
+    "Question": "Prima",
+    "Answer": "cousin"
+  },
+  {
+    "Question": "Bisabuela",
+    "Answer": "Greatgrandmother"
+  },
+  {
+    "Question": "Bisabuelo",
+    "Answer": "Greatgrandfather"
+  },
+  {
+    "Question": "Bisabuelos",
+    "Answer": "Greatgrandparents"
+  },
+  {
+    "Question": "Madrastra",
+    "Answer": "stepmother"
+  },
+  {
+    "Question": "Padrastro",
+    "Answer": "stepfather"
+  },
+  {
+    "Question": "Hermanastro",
+    "Answer": "stepbrother"
+  },
+  {
+    "Question": "Hermanastra",
+    "Answer": "stepsister"
+  },
+  {
+    "Question": "Padrino",
+    "Answer": "Godfather"
+  },
+  {
+    "Question": "Madrina",
+    "Answer": "Godmother"
+  },
+  {
+    "Question": "Me llamo Juan.",
+    "Answer": "My name is John."
+  },
+  {
+    "Question": "Soy de Nueva York.",
+    "Answer": "I am from New York."
+  },
+  {
+    "Question": "¿Cómo te llamas?",
+    "Answer": "What is your name?"
+  },
+  {
+    "Question": "¿De dónde eres?",
+    "Answer": "Where are you from?"
+  },
+  {
+    "Question": "¿Cuántos años tienes?",
+    "Answer": "How old are you?"
+  },
+  {
+    "Question": "¿Cómo se llama?",
+    "Answer": "What is his/her name?"
+  },
+  {
+    "Question": "Se llama Juanita.",
+    "Answer": "Her name is Janie."
+  },
+  {
+    "Question": "Este es mi amigo Juan.",
+    "Answer": "This is my friend John."
+  },
+  {
+    "Question": "Esta es mi amiga Juanita.",
+    "Answer": "This is my friend Janie."
+  },
+  {
+    "Question": "Soy Paco.",
+    "Answer": "I am Paco."
+  },
+  {
+    "Question": "Yo también.",
+    "Answer": "Me too."
+  },
+  {
+    "Question": "Su nombre es María.",
+    "Answer": "Her name is Maria."
+  },
+  {
+    "Question": "Mi nombre es Julieta.",
+    "Answer": "My name is Juliet."
+  },
+  {
+    "Question": "¿De dónde es él?",
+    "Answer": "Where is he from?"
+  },
+  {
+    "Question": "¿De dónde es ella?",
+    "Answer": "Where is she from?"
+  },
+  {
+    "Question": "¿Cómo se llama usted señor?",
+    "Answer": "What is your name sir?"
+  },
+  {
+    "Question": "¿Qué te gusta?",
+    "Answer": "What do you like?"
+  },
+  {
+    "Question": "Me gusta la pizza.",
+    "Answer": "I like pizza."
+  },
+  {
+    "Question": "No me gusta el taco.",
+    "Answer": "I don't like the taco."
+  },
+  {
+    "Question": "¿Te gusta el taco?",
+    "Answer": "Do you like the taco?"
+  },
+  {
+    "Question": "Los apuntes",
+    "Answer": "notes"
+  },
+  {
+    "Question": "La clase",
+    "Answer": "class"
+  },
+  {
+    "Question": "La aula",
+    "Answer": "classroom"
+  },
+  {
+    "Question": "el director",
+    "Answer": "principal"
+  },
+  {
+    "Question": "el pupitre",
+    "Answer": "student desk"
+  },
+  {
+    "Question": "el escritorio",
+    "Answer": "teacher desk"
+  },
+  {
+    "Question": "la silla",
+    "Answer": "chair"
+  },
+  {
+    "Question": "la hoja de papel",
+    "Answer": "sheet of paper"
+  },
+  {
+    "Question": "la carpeta",
+    "Answer": "folder"
+  },
+  {
+    "Question": "el libro",
+    "Answer": "book"
+  },
+  {
+    "Question": "el cuaderno",
+    "Answer": "notebook"
+  },
+  {
+    "Question": "el cuaderno de ejercicios",
+    "Answer": "workbook"
+  },
+  {
+    "Question": "el diccionario",
+    "Answer": "dictionary"
+  },
+  {
+    "Question": "la pluma",
+    "Answer": "pen"
+  },
+  {
+    "Question": "el bolígrafo",
+    "Answer": "pen"
+  },
+  {
+    "Question": "el lápiz",
+    "Answer": "pencil"
+  },
+  {
+    "Question": "la goma",
+    "Answer": "rubber eraser"
+  },
+  {
+    "Question": "la goma de borrar",
+    "Answer": "rubber eraser"
+  },
+  {
+    "Question": "el borrador",
+    "Answer": "eraser"
+  },
+  {
+    "Question": "la tiza",
+    "Answer": "chalk"
+  },
+  {
+    "Question": "la pizarra",
+    "Answer": "chalkboard"
+  },
+  {
+    "Question": "la mochila",
+    "Answer": "backpack"
+  },
+  {
+    "Question": "el armario",
+    "Answer": "locker"
+  },
+  {
+    "Question": "el estante",
+    "Answer": "bookshelf"
+  },
+  {
+    "Question": "un pase",
+    "Answer": "a pass"
+  },
+  {
+    "Question": "el cesto de papeles",
+    "Answer": "waste paper basket"
+  },
+  {
+    "Question": "el basurero",
+    "Answer": "trash bin"
+  },
+  {
+    "Question": "el reloj",
+    "Answer": "clock"
+  },
+  {
+    "Question": "la cinta",
+    "Answer": "tape"
+  },
+  {
+    "Question": "la regla",
+    "Answer": "ruler"
+  },
+  {
+    "Question": "las tijeras",
+    "Answer": "scissors"
+  },
+  {
+    "Question": "las sacapuntas",
+    "Answer": "pencil sharpener"
+  },
+  {
+    "Question": "la grapadora",
+    "Answer": "stapler"
+  },
+  {
+    "Question": "la grapa",
+    "Answer": "staple"
+  },
+  {
+    "Question": "la tarea",
+    "Answer": "homework"
+  },
+  {
+    "Question": "la bandera",
+    "Answer": "flag"
+  },
+  {
+    "Question": "los carteles",
+    "Answer": "posters"
+  },
+  {
+    "Question": "las ocupaciones",
+    "Answer": "the occupations"
+  },
+  {
+    "Question": "el trabajo",
+    "Answer": "the job"
+  },
+  {
+    "Question": "trabajar",
+    "Answer": "to work"
+  },
+  {
+    "Question": "ganar dinero",
+    "Answer": "to earn money"
+  },
+  {
+    "Question": "ganar la vida",
+    "Answer": "to earn a living"
+  },
+  {
+    "Question": "camarero/mesero",
+    "Answer": "waiter"
+  },
+  {
+    "Question": "camarera/mesera",
+    "Answer": "waitress"
+  },
+  {
+    "Question": "doctor/medico",
+    "Answer": "doctor"
+  },
+  {
+    "Question": "piloto",
+    "Answer": "pilot"
+  },
+  {
+    "Question": "abogado",
+    "Answer": "lawyer"
+  },
+  {
+    "Question": "bombero",
+    "Answer": "firefighter"
+  },
+  {
+    "Question": "músico",
+    "Answer": "musician"
+  },
+  {
+    "Question": "cartero",
+    "Answer": "mailman"
+  },
+  {
+    "Question": "plomero",
+    "Answer": "plumber"
+  },
+  {
+    "Question": "jardinero",
+    "Answer": "gardener"
   },
   {
     "Question": "panadero",
     "Answer": "baker"
   },
   {
-    "Question": "granjera",
-    "Answer": "farmer"
+    "Question": "banquero",
+    "Answer": "banker"
   },
   {
-    "Question": "ingeniero",
-    "Answer": "engineer"
+    "Question": "cocinero",
+    "Answer": "chef/cook"
   },
   {
-    "Question": "sacerdote",
-    "Answer": "priest"
+    "Question": "peluquero",
+    "Answer": "barber"
   },
   {
-    "Question": "cajeros",
-    "Answer": "cashier"
+    "Question": "veterinario",
+    "Answer": "veterinarian"
   },
   {
-    "Question": "enfermero",
+    "Question": "bibliotecario",
+    "Answer": "librarian"
+  },
+  {
+    "Question": "lechero",
+    "Answer": "milkman"
+  },
+  {
+    "Question": "secretaria",
+    "Answer": "secretary"
+  },
+  {
+    "Question": "es muy trabajador(a)",
+    "Answer": "is a very hard worker"
+  },
+  {
+    "Question": "mecánico",
+    "Answer": "mechanic"
+  },
+  {
+    "Question": "carpintero",
+    "Answer": "carpenter"
+  },
+  {
+    "Question": "atleta/deportista",
+    "Answer": "athlete/athletic"
+  },
+  {
+    "Question": "dama de la casa",
+    "Answer": "housewife"
+  },
+  {
+    "Question": "enfermera",
     "Answer": "nurse"
   },
   {
-    "Question": "mesero",
-    "Answer": "waiter"
+    "Question": "chófer",
+    "Answer": "driver"
   },
   {
-    "Question": "calendario",
-    "Answer": "calendar"
+    "Question": "carnicero",
+    "Answer": "butcher"
   },
   {
-    "Question": "temporada",
-    "Answer": "season"
+    "Question": "soldado",
+    "Answer": "soldier"
   },
   {
-    "Question": "rato",
-    "Answer": "while"
+    "Question": "cajero",
+    "Answer": "cashier"
   },
   {
-    "Question": "segundo",
-    "Answer": "seconds"
+    "Question": "Obrero",
+    "Answer": "worker/laborer"
   },
   {
-    "Question": "fecha",
-    "Answer": "date"
+    "Question": "Partes del cuerpo",
+    "Answer": "Parts of the body"
   },
   {
-    "Question": "cita",
-    "Answer": "appointment"
+    "Question": "La cabeza",
+    "Answer": "the head"
   },
   {
-    "Question": "mediodía",
-    "Answer": "afternoon"
+    "Question": "El cuello",
+    "Answer": "The neck"
   },
   {
-    "Question": "madrugada",
-    "Answer": "dawn"
+    "Question": "Los hombros",
+    "Answer": "The Shoulders"
   },
   {
-    "Question": "anoche",
-    "Answer": "last night"
+    "Question": "El pecho",
+    "Answer": "The chest"
   },
   {
-    "Question": "joven",
-    "Answer": "young"
+    "Question": "La espalda",
+    "Answer": "The back"
   },
   {
-    "Question": "vieja",
-    "Answer": "old"
+    "Question": "El estomago",
+    "Answer": "The stomach"
   },
   {
-    "Question": "útil",
-    "Answer": "useful"
+    "Question": "El corazón",
+    "Answer": "The heart"
   },
   {
-    "Question": "menor",
-    "Answer": "younger"
+    "Question": "Los brazos",
+    "Answer": "The arms"
   },
   {
-    "Question": "primera",
-    "Answer": "first"
+    "Question": "Las manos",
+    "Answer": "The hands"
   },
   {
-    "Question": "mis",
-    "Answer": "my"
+    "Question": "Los dedos",
+    "Answer": "Fingers / toes"
   },
   {
-    "Question": "cierto",
-    "Answer": "TRUE"
+    "Question": "Las uñas",
+    "Answer": "The finger/toenails"
   },
   {
-    "Question": "cual",
-    "Answer": "what"
+    "Question": "Las piernas",
+    "Answer": "The legs"
   },
   {
-    "Question": "ajo",
-    "Answer": "garlic"
+    "Question": "Las rodillas",
+    "Answer": "the knees"
   },
   {
-    "Question": "pero",
-    "Answer": "but"
+    "Question": "Los codos",
+    "Answer": "The elbows"
   },
   {
-    "Question": "nuestras",
-    "Answer": "ours"
+    "Question": "Los pies",
+    "Answer": "The feet"
   },
   {
-    "Question": "mientras",
-    "Answer": "while"
+    "Question": "El tobillo",
+    "Answer": "The ankle"
   },
   {
-    "Question": "cuando",
-    "Answer": "when"
+    "Question": "La muñeca",
+    "Answer": "The wrist"
   },
   {
-    "Question": "contra",
-    "Answer": "against"
+    "Question": "La cara",
+    "Answer": "The face"
   },
   {
-    "Question": "sobre",
-    "Answer": "about"
+    "Question": "La frente",
+    "Answer": "The forehead"
   },
   {
-    "Question": "entre",
-    "Answer": "between"
+    "Question": "Las orejas",
+    "Answer": "The ears"
   },
   {
-    "Question": "nosotras",
-    "Answer": "we"
+    "Question": "El pelo/cabello",
+    "Answer": "The hair"
   },
   {
-    "Question": "Lo ves",
-    "Answer": "you see it"
+    "Question": "La nariz",
+    "Answer": "The nose"
   },
   {
-    "Question": "Pidas",
-    "Answer": "request/ask"
+    "Question": "Los ojos",
+    "Answer": "The eyes"
   },
   {
-    "Question": "Amblemente",
-    "Answer": "Kindly"
+    "Question": "Los labios",
+    "Answer": "The lips"
   },
   {
-    "Question": "Antes",
-    "Answer": "before"
+    "Question": "La mejilla",
+    "Answer": "The cheek"
   },
   {
-    "Question": "Olivido",
-    "Answer": "forgot"
+    "Question": "Los dientes",
+    "Answer": "The teeth"
   },
   {
-    "Question": "Iban",
-    "Answer": "were gong"
+    "Question": "La lengua",
+    "Answer": "The tongue"
   },
   {
-    "Question": "Encontrar",
-    "Answer": "meet up"
+    "Question": "La boca",
+    "Answer": "The mouth"
   },
   {
-    "Question": "Gustaria",
-    "Answer": "would like"
+    "Question": "Las pestañas",
+    "Answer": "The eyelashes"
   },
   {
-    "Question": "Recibe",
-    "Answer": "receive"
+    "Question": "Las cejas",
+    "Answer": "The eyebrows"
   },
   {
-    "Question": "Recibe el alta medica",
-    "Answer": "he is discharged"
+    "Question": "Los días de la semana",
+    "Answer": "The days of the week"
   },
   {
-    "Question": "Delantero",
-    "Answer": "forward (sports)"
+    "Question": "lunes",
+    "Answer": "Monday"
   },
   {
-    "Question": "Ha",
-    "Answer": "has"
+    "Question": "martes",
+    "Answer": "Tuesday"
   },
   {
-    "Question": "Completado",
-    "Answer": "completed"
+    "Question": "miércoles",
+    "Answer": "Wednesday"
   },
   {
-    "Question": "Satisfactoriamente",
-    "Answer": "satisfactorily/succesfully"
+    "Question": "jueves",
+    "Answer": "Thursday"
   },
   {
-    "Question": "Proceso",
-    "Answer": "process"
+    "Question": "viernes",
+    "Answer": "Friday"
   },
   {
-    "Question": "Recuperacion",
-    "Answer": "recovery"
+    "Question": "sábado",
+    "Answer": "Saturday"
   },
   {
-    "Question": "Lesion",
-    "Answer": "injury/lesson"
+    "Question": "domingo",
+    "Answer": "Sunday"
   },
   {
-    "Question": "Derecha",
-    "Answer": "right"
+    "Question": "Los meses del año",
+    "Answer": "The months of the year"
+  },
+  {
+    "Question": "enero",
+    "Answer": "January"
+  },
+  {
+    "Question": "febrero",
+    "Answer": "February"
+  },
+  {
+    "Question": "marzo",
+    "Answer": "March"
+  },
+  {
+    "Question": "abril",
+    "Answer": "April"
+  },
+  {
+    "Question": "mayo",
+    "Answer": "May"
+  },
+  {
+    "Question": "junio",
+    "Answer": "June"
+  },
+  {
+    "Question": "julio",
+    "Answer": "July"
+  },
+  {
+    "Question": "agosto",
+    "Answer": "August"
+  },
+  {
+    "Question": "septiembre",
+    "Answer": "September"
+  },
+  {
+    "Question": "octubre",
+    "Answer": "October"
+  },
+  {
+    "Question": "noviembre",
+    "Answer": "November"
+  },
+  {
+    "Question": "diciembre",
+    "Answer": "December"
+  },
+  {
+    "Question": "Ayer fue...",
+    "Answer": "Yesterday was..."
+  },
+  {
+    "Question": "Today is...",
+    "Answer": "Hoy es..."
+  },
+  {
+    "Question": "Tomorrow is...",
+    "Answer": "Mañana es..."
+  },
+  {
+    "Question": "¿Cuál es la fecha de hoy?",
+    "Answer": "What is the date today?"
+  },
+  {
+    "Question": "La fecha es...",
+    "Answer": "The date is..."
+  },
+  {
+    "Question": "El cinco de mayo",
+    "Answer": "The 5th of May"
+  },
+  {
+    "Question": "August 22nd",
+    "Answer": "El veintidós de agosto"
+  },
+  {
+    "Question": "Hoy es el veintidós de agosto",
+    "Answer": "Today is the 22nd of August"
+  },
+  {
+    "Question": "Hoy es el primero de enero",
+    "Answer": "Today is the first of January"
+  },
+  {
+    "Question": "The weekend",
+    "Answer": "El fin de semana"
+  },
+  {
+    "Question": "El cuarto",
+    "Answer": "The room"
+  },
+  {
+    "Question": "El dormitorio",
+    "Answer": "bedroom"
+  },
+  {
+    "Question": "La cama",
+    "Answer": "The bed"
+  },
+  {
+    "Question": "El lavabo",
+    "Answer": "The bathroom sink"
+  },
+  {
+    "Question": "El fregadero",
+    "Answer": "The kitchen sink"
+  },
+  {
+    "Question": "La sala",
+    "Answer": "The living room"
+  },
+  {
+    "Question": "El baño",
+    "Answer": "The bathroom"
+  },
+  {
+    "Question": "La ducha",
+    "Answer": "The shower"
+  },
+  {
+    "Question": "La mesa",
+    "Answer": "The table"
+  },
+  {
+    "Question": "La silla",
+    "Answer": "The chair"
+  },
+  {
+    "Question": "La sofá",
+    "Answer": "The sofa"
+  },
+  {
+    "Question": "El garaje",
+    "Answer": "The garage"
+  },
+  {
+    "Question": "La ventana",
+    "Answer": "The window"
+  },
+  {
+    "Question": "La puerta",
+    "Answer": "The door"
+  },
+  {
+    "Question": "El armario",
+    "Answer": "The closet"
+  },
+  {
+    "Question": "La lavadora",
+    "Answer": "The washing machine"
+  },
+  {
+    "Question": "La secadora",
+    "Answer": "The dryer"
+  },
+  {
+    "Question": "El refrigerador / La refrigeradora",
+    "Answer": "The refrigerator"
+  },
+  {
+    "Question": "El horno",
+    "Answer": "The oven"
+  },
+  {
+    "Question": "La estufa",
+    "Answer": "The stove"
+  },
+  {
+    "Question": "El comedor",
+    "Answer": "The dining room"
+  },
+  {
+    "Question": "El jardín",
+    "Answer": "The garden"
+  },
+  {
+    "Question": "La mansion",
+    "Answer": "the mansion"
+  },
+  {
+    "Question": "El apartamento",
+    "Answer": "apartment"
   }
 ]

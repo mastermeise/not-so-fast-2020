@@ -1,0 +1,202 @@
+[
+  {
+    "Question": "Maine",
+    "Answer": "Augusta"
+  },
+  {
+    "Question": "New Hampshire",
+    "Answer": "Concord"
+  },
+  {
+    "Question": "Vermont",
+    "Answer": "Montpelier"
+  },
+  {
+    "Question": "Massachusetts",
+    "Answer": "Boston"
+  },
+  {
+    "Question": "Rhode Island",
+    "Answer": "Providence"
+  },
+  {
+    "Question": "Connecticut",
+    "Answer": "Hartford"
+  },
+  {
+    "Question": "New York",
+    "Answer": "Albany"
+  },
+  {
+    "Question": "Pennsylvania",
+    "Answer": "Harrisburg"
+  },
+  {
+    "Question": "New Jersey",
+    "Answer": "Trenton"
+  },
+  {
+    "Question": "Delaware",
+    "Answer": "Dover"
+  },
+  {
+    "Question": "Maryland",
+    "Answer": "Annapolis"
+  },
+  {
+    "Question": "West Virginia",
+    "Answer": "Charleston"
+  },
+  {
+    "Question": "Virginia",
+    "Answer": "Richmond"
+  },
+  {
+    "Question": "North Carolina",
+    "Answer": "Raleigh"
+  },
+  {
+    "Question": "South Carolina",
+    "Answer": "Columbia"
+  },
+  {
+    "Question": "Georgia",
+    "Answer": "Atlanta"
+  },
+  {
+    "Question": "Florida",
+    "Answer": "Tallahassee"
+  },
+  {
+    "Question": "Alabama",
+    "Answer": "Montgomery"
+  },
+  {
+    "Question": "Mississippi",
+    "Answer": "Jackson"
+  },
+  {
+    "Question": "Louisiana",
+    "Answer": "Baton Rouge"
+  },
+  {
+    "Question": "Arkansas",
+    "Answer": "Little Rock"
+  },
+  {
+    "Question": "Tennessee",
+    "Answer": "Nashville"
+  },
+  {
+    "Question": "Kentucky",
+    "Answer": "Frankfort"
+  },
+  {
+    "Question": "Ohio",
+    "Answer": "Columbus"
+  },
+  {
+    "Question": "Indiana",
+    "Answer": "Indianapolis"
+  },
+  {
+    "Question": "Michigan",
+    "Answer": "Lansing"
+  },
+  {
+    "Question": "Illinois",
+    "Answer": "Springfield"
+  },
+  {
+    "Question": "Wisconsin",
+    "Answer": "Madison"
+  },
+  {
+    "Question": "Minnesota",
+    "Answer": "St. Paul"
+  },
+  {
+    "Question": "Iowa",
+    "Answer": "Des Moines"
+  },
+  {
+    "Question": "Missouri",
+    "Answer": "Jefferson City"
+  },
+  {
+    "Question": "Texas",
+    "Answer": "Austin"
+  },
+  {
+    "Question": "Oklahoma",
+    "Answer": "Oklahoma City"
+  },
+  {
+    "Question": "Kansas",
+    "Answer": "Topeka"
+  },
+  {
+    "Question": "Nebraska",
+    "Answer": "Lincoln"
+  },
+  {
+    "Question": "South Dakota",
+    "Answer": "Pierre"
+  },
+  {
+    "Question": "North Dakota",
+    "Answer": "Bismarck"
+  },
+  {
+    "Question": "Montana",
+    "Answer": "Helena"
+  },
+  {
+    "Question": "Wyoming",
+    "Answer": "Cheyenne"
+  },
+  {
+    "Question": "Colorado",
+    "Answer": "Denver"
+  },
+  {
+    "Question": "New Mexico",
+    "Answer": "Santa Fe"
+  },
+  {
+    "Question": "Arizona",
+    "Answer": "Phoenix"
+  },
+  {
+    "Question": "Utah",
+    "Answer": "Salt Lake City"
+  },
+  {
+    "Question": "Idaho",
+    "Answer": "Boise"
+  },
+  {
+    "Question": "Washington",
+    "Answer": "Olympia"
+  },
+  {
+    "Question": "Oregon",
+    "Answer": "Salem"
+  },
+  {
+    "Question": "Nevada",
+    "Answer": "Carson City"
+  },
+  {
+    "Question": "California",
+    "Answer": "Sacramento"
+  },
+  {
+    "Question": "Hawaii",
+    "Answer": "Honolulu"
+  },
+  {
+    "Question": "Alaska",
+    "Answer": "Juneau"
+  }
+]

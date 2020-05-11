@@ -5,7 +5,7 @@ var chosenQuiz = (localStorage.getItem('quizzes'));
 console.log('chesenQuiz', chosenQuiz);
 if (chosenQuiz == null) {
 	localStorage.setItem('num_of_questions', 5);
-	var quizzes = '{"id":"#spanishBtn","title":"#spanishBtn","on":true}';
+	var quizzes = '{"id":"#basicBtn","title":"#basicBtn","on":true}';
 	localStorage.setItem('quizzes', quizzes);
 	localStorage.setItem('blocked_websites', 'facebook.com, reddit.com,');
 

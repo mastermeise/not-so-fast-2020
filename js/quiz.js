@@ -26,7 +26,7 @@ var quiz = {};
 		if (chosenQuiz)
 			if (chosenQuiz.on) {
 				if (chosenQuiz.id.indexOf("basic") != -1)
-					$.get(chrome.extension.getURL('javascript.json'), {}, function (response) {
+					$.get(chrome.extension.getURL('state-capitals.json'), {}, function (response) {
 						questions = response;
 					});
 				else if (chosenQuiz.id.indexOf("spanish") != -1)
