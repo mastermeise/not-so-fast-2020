@@ -1,7 +1,7 @@
 {
     "name": "Not So Fast",
     "version": "1.0",
-    "manifest_version": 1,
+    "manifest_version": 2,
     "description": "Turn procrastination into productivity!",
     "background":
     {
